@@ -1,0 +1,28 @@
+🚀 بررسی فضای دیسک سیستم:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           382M  2.1M  380M   1% /run
+/dev/sda2       457G   17G  418G   4% /
+tmpfs           1.9G  6.5M  1.9G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+efivarfs        128K   40K   84K  33% /sys/firmware/efi/efivars
+/dev/sda1       511M  6.1M  505M   2% /boot/efi
+tmpfs           382M  148K  381M   1% /run/user/1000
+
+💻 بررسی مصرف RAM:
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       2.3Gi       468Mi       449Mi       1.0Gi       794Mi
+Swap:          3.9Gi       1.6Gi       2.3Gi
+
+⚙️ بررسی مصرف CPU:
+%Cpu(s):(B[m[39;49m[1m  3.0 (B[m[39;49mus,(B[m[39;49m[1m  1.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 84.8 (B[m[39;49mid,(B[m[39;49m[1m 10.6 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+🌐 بررسی وضعیت شبکه (اتصال به اینترنت):
+PING google.com (216.239.38.120) 56(84) bytes of data.
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=1 ttl=109 time=77.8 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=2 ttl=109 time=105 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=3 ttl=109 time=93.1 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=4 ttl=109 time=99.5 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3003ms
+rtt min/avg/max/mdev = 77.763/93.946/105.393/10.307 ms
